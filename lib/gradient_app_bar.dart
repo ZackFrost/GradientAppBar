@@ -379,7 +379,7 @@ class GradientAppBar extends StatefulWidget implements PreferredSizeWidget {
         return false;
       case TargetPlatform.iOS:
         return actions == null || actions.length < 2;
-      case default: return true;
+      default: return true;
     }
     return null;
   }
