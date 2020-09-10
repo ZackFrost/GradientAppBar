@@ -508,11 +508,12 @@ class _GradientAppBarState extends State<GradientAppBar> {
       );
     }
 
+      //centerMiddle: widget._getEffectiveCenterTitle(themeData),
     final Widget toolbar = NavigationToolbar(
       leading: leading,
       middle: title,
       trailing: actions,
-      centerMiddle: widget._getEffectiveCenterTitle(themeData),
+      centerMiddle: true,
       middleSpacing: widget.titleSpacing,
     );
 
